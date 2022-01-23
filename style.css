@@ -1,0 +1,202 @@
+/* Font size and family */
+/* weight an style */
+/* align and indent */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #220202;
+  color: grey;
+  font-weight: bolder;
+  word-wrap: break-word;
+  cursor: default;
+  margin: 0;
+}
+a {
+  color: rgb(95, 95, 95);
+  font-size: 1.5em;
+  padding: 3%;
+  text-decoration: none;
+  cursor: default;
+}
+.buttons {
+  text-align: center;
+  background-color: black;
+  margin-bottom: 15px;
+  padding: 10px;
+  word-spacing: 50px;
+  text-transform: uppercase;
+}
+.bWord {
+  margin: 0px;
+  padding: 0px;
+  transition: 1s;
+}
+.bWord:hover {
+  padding: 5px;
+  font-size: 1.3em;
+  color: #ff0000;
+  border: 0.2em solid rgba(255, 0, 0, 0.062);
+  border-radius: 100%;
+}
+
+h1 {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.103);
+  /* padding: 10px 10px; */
+  /* top-bottom, left-right */
+  /* top right down left */
+  padding: 10px 0px;
+  padding-left: 10px;
+}
+.top {
+  text-decoration: line-through;
+}
+.top:hover {
+  color: white;
+}
+.bottom {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.322);
+  background: rgba(240, 240, 240, 0.158);
+  text-decoration-color: grey;
+  border: 2px dashed rgba(163, 122, 122, 0.274);
+  margin: 10px;
+  word-spacing: 5px;
+}
+.name {
+  text-decoration: none;
+}
+.topLink {
+  font-size: initial;
+}
+.top:hover {
+  transition: 5s;
+  font-size: 5rem;
+}
+.NAME {
+  color: red;
+  opacity: 0.1;
+  transition: 30s;
+}
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+body {
+  height: 500em;
+}
+/*  line-height
+letter-spacing
+word-spacing
+text-transform
+text-decoration */
+.dropbtn {
+  background-color: #ff000021;
+  border: none;
+  color: rgb(20, 0, 0);
+  cursor: default;
+  position: fixed;
+  font-size: 1rem;
+  top: 10px;
+  right: 10px;
+  text-transform: uppercase;
+}
+#ME {
+  background-image: url(../images/anime-sad.gif);
+  word-spacing: 100px;
+  letter-spacing: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  animation: flicker 0.5s infinite;
+  color: red;
+}
+#contactText {
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  animation: flicker 5s infinite;
+  -moz-animation: glow 1s ease-in-out infinite;
+}
+#Contact {
+  color: red;
+  text-align: center;
+  padding-top: 800px;
+  padding-bottom: 800px;
+  background-image: url(./images/6xkT.gif);
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0;
+  }
+  9% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  13% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.glitch {
+  color: pink;
+  -webkit-animation: flicker 5s infinite;
+  animation: flicker 2s linear reverse infinite;
+}
+.anymore {
+  animation: glow 1s;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  color: rgb(48, 3, 3);
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(250, 2, 2, 0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(90, 23, 23);
+  outline: 1px solid rgb(26, 1, 1);
+}
+
+#thoughts:hover {
+  transition: 60s;
+  color: red;
+  text-decoration: line-through;
+  padding-top: 1000px;
+  padding-bottom: 1000px;
+}
+.strongStyle:hover {
+  opacity: 0;
+  transition: 5s;
+}
