@@ -106,7 +106,7 @@ text-decoration */
   text-transform: uppercase;
 }
 #ME {
-  background-image: url(../images/anime-sad.gif);
+  background-image: url(/anime-sad.gif);
   word-spacing: 100px;
   letter-spacing: 20px;
   margin-bottom: 0;
@@ -127,7 +127,7 @@ text-decoration */
   text-align: center;
   padding-top: 800px;
   padding-bottom: 800px;
-  background-image: url(./images/6xkT.gif);
+  background-image: url(/6xkT.gif);
 }
 
 @keyframes flicker {
